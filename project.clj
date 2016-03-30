@@ -1,12 +1,12 @@
-(defproject alchemy-clojure "0.1.0-SNAPSHOT"
+(defproject alchemy-clojure "0.1.1-SNAPSHOT"
   :description "A SDK for AlchemyAPI using Clojure"
-  :url "http://example.com/FIXME"
+  :url "https://github.com/matthewsiemens/alchemy-clojure"
   :license {:name "Eclipse Public License"
             :url "http://www.eclipse.org/legal/epl-v10.html"}
   :dependencies [
-                  [org.clojure/clojure "1.5.1"]
-                  [clj-http "0.7.9"]
-                  [cheshire "5.3.1"]
+                  [org.clojure/clojure "1.8.0"]
+                  [clj-http "2.1.0"]
+                  [cheshire "5.5.0"]
                   ]
   :dev-dependencies [
                   [lein-reload "1.0.0"]
